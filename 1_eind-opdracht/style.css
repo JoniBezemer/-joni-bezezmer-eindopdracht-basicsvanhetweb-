@@ -1,0 +1,177 @@
+
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: "roboto";
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 8px;
+}
+
+p{
+    text-align: center;
+    color: #16594a;
+    margin: 8px;
+}
+
+h1{
+    text-align: left;
+    color: #f98f45;
+}
+h2{
+    text-align: center;
+    color: #f98f45;
+    font-size: 35px;
+    
+}
+
+a{
+    color: #12906E;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f98f45;
+}
+
+a:hover{
+    color:#f98f45;
+}
+
+.submit:hover{
+    background-color:#12908e;
+    color: cornsilk;
+}
+
+.envelop{
+    width: 2.5%;
+    margin-left: 25px;
+
+}
+
+.Joni-Myanmar{
+    width: 100%;
+}
+
+footer{
+    margin: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    }
+
+    .alien { 
+        grid-area: 1 / 1 / 1 / 6; 
+        width: 100%;
+        }
+    article{
+        grid-area: 2 / 1 / 2 / 6;
+        margin: 1px 10px;
+    }
+    iframe{
+        grid-area: 2 / 1 / 3 / 6;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20rem;
+    }
+    h1 { 
+        grid-area: 3 / 1 / 4 / 6 ; 
+        text-align: center;
+        margin-top: 6rem;
+        }
+    nav{
+        margin: auto;
+    }
+    .nature{
+        grid-area: 3 / 1 / 5 / 6;
+        }
+    .buildings{
+        grid-area: 4 / 1 / 6 / 6;
+        margin-bottom: 4rem;
+        }
+        
+@media screen and (min-width:768px){
+    html,body{
+        background-color: rgb(253, 232, 232);
+    }
+    .alien { 
+        grid-area: 1 / 1 / 1 / 5; 
+        width: 100%;
+        }
+    article{
+        grid-area: 2 / 1 / 2 / 5;
+        margin: 1px 10px;
+        font-size: 120%;
+    }
+    iframe{
+        grid-area: 2 / 1 / 3 / 5;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20rem;
+    }
+    h1 { 
+        grid-area: 2 / 1 / 4 / 5; 
+        text-align: center;
+        margin-top: 52rem;
+        }
+    nav{
+        margin: auto;
+    }
+    .nature{
+        grid-area: 3 / 1 / 4 / 5;
+        }
+    .buildings{
+        grid-area: 4 / 1 / 5 / 5;
+        margin-bottom: 4rem;
+        }
+}
+    
+
+@media screen and (min-width:1024px){
+    html, body {
+        background-color:#ffffff;
+    }
+    .alien{
+        grid-area: 1 / 1 / 3 / 3;
+        width: 100%;
+    }
+    article{
+        grid-area: 1 / 3 / 2 / 5;
+        font-size: 110%;
+    }
+    h1{
+        grid-area: 2 / 2 / 4 / 4;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+        font-size: 35px;
+    }
+    .nature{
+        grid-area: 3 / 1 / 6 / 3;
+        margin: 130px;
+    }
+    .buildings{
+        grid-area: 3 / 3 / 6 / 5;
+        margin: 130px;
+    }
+    iframe{
+        grid-area: 1 / 3 / 5 / 5;
+        margin-top: 22rem;
+    }
+
+}
